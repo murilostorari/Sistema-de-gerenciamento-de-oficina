@@ -1,0 +1,946 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="contratos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\contratos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="curva preto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\curva preto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Masc5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IconsMasculino\Masc5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="complemento branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\complemento branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="success end1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\success end1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="qntdisponivel cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qntdisponivel cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prateleira branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prateleira branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Happy - icone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Happy - icone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pesquisar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pesquisar1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clientes branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clientes branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="excel verde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\excel verde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fornecedor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fornecedor1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="estado civil branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\estado civil branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pdf - icone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pdf - icone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="funcionarios branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\funcionarios branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seta cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seta cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="empty 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\empty 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="novo cliente" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\novo cliente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delivery branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delivery branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Empresa5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IconsEmpresa\Empresa5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cpfcnpj claro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cpfcnpj claro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="estoque cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\estoque cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit claro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit claro1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Empresa3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IconsEmpresa\Empresa3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="excel preto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\excel preto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logout branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logout branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="genero claro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\genero claro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delivery red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delivery red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settings icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filter cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\filter cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="funcionarios" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\funcionarios.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="serviços branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\serviços branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="genero branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\genero branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="serviços cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\serviços cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ascending branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ascending branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lista claro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lista claro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Clientes - Borda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Clientes - Borda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="serviços" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\serviços.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cep claro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cep claro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ideal cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ideal cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="porcento cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\porcento cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search black.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="responsavel preto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\responsavel preto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="status branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\status branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="descending branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\descending branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fabricante cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fabricante cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bairro branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bairro branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="localizacao cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\localizacao cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fabricante branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fabricante branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="status cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\status cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seta direita dupla branco1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seta direita dupla branco1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seta esquerda branco1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seta esquerda branco1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Masc3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IconsMasculino\Masc3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IconsEstoque\kit\kit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="email claro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\email claro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aparencia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aparencia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Reload app - white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Reload app - white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minimo branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minimo branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filtro red2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\filtro red2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="estoque branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\estoque branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alert end1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alert end1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="novo icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\novo icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fornecedor preto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fornecedor preto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="entrada claro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\entrada claro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Export pdf - icone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Export pdf - icone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fornecedor branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fornecedor branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="excel branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\excel branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filtro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\filtro1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filter icon red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\filter icon red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aparencia red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aparencia red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete end" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete end.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Reload app - dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Reload app - dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="current page branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\current page branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hide pass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hide pass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="price cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\price cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="responsavel branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\responsavel branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clientes red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clientes red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="success end2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\success end2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="entrada item red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\entrada item red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="produto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IconsEstoque\produto\produto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="conta cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\conta cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dinheiro cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dinheiro cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lista claro maior" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lista claro maior.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Masc2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IconsMasculino\Masc2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demitido cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\demitido cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete - dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete - dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Export excel - icone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Export excel - icone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="disponivel cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\disponivel cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TecnicoVendedor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IconsFuncionario\Vendedor\Masculino\TecnicoVendedor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filtro red1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\filtro red1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filtro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\filtro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="conta branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\conta branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bank cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bank cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banco cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\banco cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="all pages branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\all pages branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lista compacta preto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lista compacta preto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="email branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\email branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="complemento claro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\complemento claro1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delivery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delivery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="birthday branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\birthday branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark mode - selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dark mode - selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lista compacta red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lista compacta red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="serviços red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\serviços red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unidade-tipo-grupo branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unidade-tipo-grupo branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filtro red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\filtro red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="export icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\export icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="contratos red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\contratos red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seta direita dupla preto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seta direita dupla preto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit claro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit claro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light mode - selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\light mode - selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fem4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IconsFeminino\Fem4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="curva cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\curva cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filtro - red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\filtro - red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="all pages" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\all pages.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="voltar claro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\voltar claro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="saida item branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\saida item branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="funcao cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\funcao cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit preto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit preto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seta direita cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seta direita cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clientes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clientes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pdf preto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pdf preto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cpf claro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cpf claro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="data preto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\data preto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="camera claro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\camera claro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filter icon claro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\filter icon claro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="success end" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\success end.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="localizacao branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\localizacao branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login - TextBox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login - TextBox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fornecedor cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fornecedor cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="erro end" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\erro end.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo 250" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo 250.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="descending claro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\descending claro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IconsFuncionario\Tecnico\1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cadeado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cadeado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dolar cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dolar cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="voltar escuro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\voltar escuro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fem1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IconsFeminino\Fem1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delivery cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delivery cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fem3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IconsFeminino\Fem3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aparencia branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aparencia branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barcode branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barcode branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="person" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\person.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demitido branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\demitido branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phone branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phone branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filtro cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\filtro cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pessoa claro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pessoa claro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alert end" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alert end.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barcode cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barcode cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alerta - icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alerta - icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settings cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light mode" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\light mode.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="number cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\number cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit escuro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit escuro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settings branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seta direita dupla branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seta direita dupla branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seta esquerda dupla branco1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seta esquerda dupla branco1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="contratos branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\contratos branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="entrada item branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\entrada item branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sucesso - icone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sucesso - icone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seta direita dupla cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seta direita dupla cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="estado cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\estado cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unidade-tipo-grupo cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unidade-tipo-grupo cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filter data branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\filter data branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lista compacta claro maior" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lista compacta claro maior.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ascending claro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ascending claro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seta esquerda dupla preto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seta esquerda dupla preto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="status preto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\status preto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="voltar branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\voltar branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="erro - icone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\erro - icone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lista red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lista red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="success stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\success stop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bank branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bank branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alerta end" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alerta end.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="saida item preto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\saida item preto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seta direita branco1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seta direita branco1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bairro claro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bairro claro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clientes cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clientes cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="entrada item preto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\entrada item preto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cadeado preto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cadeado preto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fornecedor menor branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fornecedor menor branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seta esquerda dupla cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seta esquerda dupla cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="estoque" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\estoque.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dinheiro branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dinheiro branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="empty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\empty.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="number branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\number branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="erase claro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\erase claro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seta esquerda preto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seta esquerda preto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="funcao branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\funcao branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lista branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lista branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ascending red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ascending red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="marked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\marked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cep branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cep branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pesquisar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pesquisar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="data red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\data red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lista compacta claro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lista compacta claro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pdf vermelho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pdf vermelho.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="estado civil cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\estado civil cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fornecedor2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fornecedor2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="opcoes cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\opcoes cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ideal branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ideal branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fem2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IconsFeminino\Fem2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hide button - black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hide button - black.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="porcento branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\porcento branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pessoa branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pessoa branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DefaultAvatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\DefaultAvatar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hide bar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hide bar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pdf claro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pdf claro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phone claro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phone claro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="curva branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\curva branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seta direita preto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seta direita preto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="complemento claro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\complemento claro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Empresa2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IconsEmpresa\Empresa2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="descending red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\descending red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="funcionarios cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\funcionarios cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pesquisar preto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pesquisar preto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="contratos cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\contratos cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seta esquerda dupla branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seta esquerda dupla branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sort branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sort branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="show pass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\show pass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Masc4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IconsMasculino\Masc4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minimo cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minimo cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="estado branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\estado branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="produto2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IconsEstoque\produto\produto2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banco branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\banco branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="current page" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\current page.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="saida item red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\saida item red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lista preto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lista preto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pessoa claro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pessoa claro1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home claro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home claro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Empresa1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IconsEmpresa\Empresa1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="observacoes claro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\observacoes claro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Masc1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IconsMasculino\Masc1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="estoque red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\estoque red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prateleira cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prateleira cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fem5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IconsFeminino\Fem5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seta direita branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seta direita branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lista compacta branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lista compacta branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filtro - cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\filtro - cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Excel - icone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Excel - icone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PageBack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PageBack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unidade-tipo-grupo preto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unidade-tipo-grupo preto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fabricante preto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fabricante preto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="birthday claro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\birthday claro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="funcionarios red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\funcionarios red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="show bar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\show bar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dark mode" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dark mode.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="data branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\data branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="observacoes branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\observacoes branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login - TextBox vermelho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login - TextBox vermelho.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settings red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hide pass preto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hide pass preto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filtro cinza1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\filtro cinza1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="person preto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\person preto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete - white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete - white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="profile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\profile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seta esquerda branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seta esquerda branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seta esquerda cinza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seta esquerda cinza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Empresa4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\IconsEmpresa\Empresa4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cpfcnpj branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cpfcnpj branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sort preto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sort preto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barcode preto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barcode preto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
